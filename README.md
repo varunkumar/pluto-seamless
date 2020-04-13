@@ -7,7 +7,7 @@ Mac automation for opening links in a remote machine.
 - Unzip the application from [`dist/PlutoSeamless.zip`](dist/PlutoSeamless.zip)
 - Run the application to register it as handlers for HTTP / HTTPS schemes
 - Set `PlutoSeamless` as the default application. Go to `System Preferences` -> `General` -> `Default web browser:`. Choose `PlutoSeamless` from the list of browsers.
-- Set URL patterns as environment variable `launchctl setenv REMOTE_URL_PATTERN ".*\.google\.com|"`. This will open all google.com links in a remote machine.
+- Set URL patterns as environment variable `launchctl setenv REMOTE_URL_PATTERN ".*\.google\.com|"`. This will open all google.com links in a remote machine. Update it to include patterns of all URLs that you want to open remotely. Run this command on a terminal. 
 
 ## How to build a new version?
 
